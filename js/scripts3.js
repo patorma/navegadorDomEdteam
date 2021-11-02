@@ -7,4 +7,5 @@ const title = document.querySelector('h1');
 // }
 // title.setAttribute('id','title');
 title.id = 'title';
-console.log(title);
+//agregar clases al atributo
+title.classList.add('main-title','title-front-page');
