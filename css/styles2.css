@@ -1,3 +1,9 @@
+body{
+    margin:0px;
+    display:flex;
+    min-height: 100vh;
+    padding-bottom: 100em;
+}
 input{
     font-size: 2em;
     padding: .25em;
@@ -6,7 +12,7 @@ input{
 
 [type ="checkbox"]{
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 1px;
 }
 .check{
     display: block;
